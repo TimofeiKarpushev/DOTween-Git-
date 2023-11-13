@@ -12,7 +12,7 @@ public class TextChanger : MonoBehaviour
 
     private float _duration = 3;
 
-    void Start()
+    private void Start()
     {
         _text.DOText("Текст успешно заменен", _duration);
         _text2.DOText("Привет", _duration).SetRelative();

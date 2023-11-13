@@ -11,7 +11,7 @@ public class Scaller : MonoBehaviour
 
     private float _duration = 1;
 
-    void Start()
+    private void Start()
     {
         transform.DOScale(new Vector3(_xVector, _yVector, _zVector), _duration).SetLoops(-1, LoopType.Yoyo);
     }

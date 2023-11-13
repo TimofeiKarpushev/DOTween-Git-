@@ -11,7 +11,7 @@ public class Mover : MonoBehaviour
 
     private float _duration = 15;
 
-    void Start()
+    private void Start()
     {
         transform.DOMove(new Vector3(_xVector, _yVector, _zVector), _duration);
     }
