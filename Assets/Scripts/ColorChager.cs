@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+[RequireComponent(typeof(Renderer))]
 public class ColorChager : MonoBehaviour
 {
     [SerializeField] private Color _targetColor;
